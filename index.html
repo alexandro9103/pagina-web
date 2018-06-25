@@ -19,6 +19,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
 
+    <style>
+        .present-card {
+            margin: 5px;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -34,7 +40,7 @@
                 <a class="nav-item nav-link active" href="#">Home
                     <span class="sr-only">(current)</span>
                 </a>
-                <a class="nav-item nav-link" href="#">Features</a>
+                <a class="nav-item nav-link" href="#">Dashboard</a>
                 <a class="nav-item nav-link" href="#">Services</a>
                 <a class="nav-item nav-link " href="#">Contact us</a>
             </div>
@@ -43,25 +49,29 @@
     <h1>Bienvenidos a la pagina del estudio Fotografico Fotocol en linea</h1>
     <p>Esta es la pagina donde podras ver nuestros trabajos</p>
 
+    <div class="container">
+        <div class="row">
+            <div class="card present-card" style="width: 18rem;">
+                <img class="card-img-top" src="img/1.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card present-card" style="width: 18rem;">
+                <img class="card-img-top" src="img/2.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card present-card" style="width: 18rem;">
+                <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
 
-    <p>Texto de presentacion</p>
-
-
-    <ul>
-        <li>Primero elemento</li>
-        <li>Segundo Elelmento</li>
-        <li>Tercer Elemento</li>
-    </ul>
-
-    <ul id="nuevo-menu">
-        <li>
-            <a href="#">Contacto de la Empresa.</a>
-        </li>
-
-        <li>
-            <a href="#">Idioma de la Empresa.</a>
-        </li>
-    </ul>
+    </div>
 </body>
 
 </html>
